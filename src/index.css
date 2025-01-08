@@ -1,6 +1,6 @@
 body{
   font-family: 'Arial', sans-serif;
-  background: url(C:\Users\Dell\Desktop\background.jpg) no-repeat;
+  background: url('/src/images/background.jpg') no-repeat;
   background-size: 100%;
   
   
@@ -55,7 +55,7 @@ font-family: "Raleway",sans-serif;
   padding: 10px;
   font-size: 16px;
   margin-top: 5px;
-  border: 1px solid #f08e8e;
+  border: 1px solid #675a5a;
   border-radius: 5px;
 }
 
@@ -64,7 +64,7 @@ font-family: "Raleway",sans-serif;
   padding: 10px;
   font-size: 16px;
   background-color: #007bff;
-  color: rgb(245, 150, 150);
+  color: rgb(90, 72, 72);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -93,7 +93,7 @@ body {
 .user-icon {
   background-color: #f2f2f2;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(239, 149, 149, 0.2);
   padding: 20px 30px;
   width: 400px;
   text-align: center;
@@ -102,7 +102,7 @@ body {
 .user-icon h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #000;
+  color: #5e4a4a;
   margin-bottom: 20px;
 }
 
