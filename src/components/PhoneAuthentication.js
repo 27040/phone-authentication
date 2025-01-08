@@ -61,7 +61,9 @@ const PhoneAuth = () => {
   };
 
   return (
-    <div>
+   
+    <div class="user-icon gr-bg">
+    
       <h2>Phone Authentication</h2>
       <div id="recaptcha-container"></div>
 
