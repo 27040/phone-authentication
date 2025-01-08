@@ -1,0 +1,56 @@
+.phone-auth-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.phone-auth-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.phone-auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-input,
+.verification-code-input {
+  margin-bottom: 15px;
+}
+
+.phone-number-input input,
+.verification-code-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.action-buttons button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-buttons button:disabled {
+  background-color: #b0c4de;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
